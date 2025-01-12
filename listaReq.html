@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasaporte Español - Top Pasaportes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg" style="background-color: #2B2B2B;">
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center">
+                <a class="navbar-brand ms-5" href="index.html">
+                    <img src="img/logo.png" alt="Logo" width="38" height="34"
+                        class="d-inline-block align-text-top rounded">
+                </a>
+                <h4>Pasaporte Español</h4>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse me-5" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="listaReq.html">Explorar Pasaporte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="topPasaportes.html">Top Pasaportes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="flex-fill">
+        <div class="container my-5 d-flex flex-column">
+            <div class="d-flex align-items-center mb-5">
+                <div class="input-group">
+                    <span class="input-group-text bg-dark text-light border-0">
+                        <i class="bi bi-search"></i>
+                    </span>
+                    <input type="text" class="form-control bg-dark text-light border-0" placeholder="Buscar país"
+                        aria-label="Buscar país">
+                </div>
+                <i class="bi bi-funnel-fill ms-2 text-warning"></i>
+                <div class="d-flex ms-2">
+                    <a href="#">
+                        <div class="circle bg-success me-2"></div>
+                    </a>
+                    <a href="#">
+                        <div class="circle bg-warning me-2"></div>
+                    </a>
+                    <a href="#">
+                        <div class="circle bg-primary me-2"></div>
+                    </a>
+                    <a href="#">
+                        <div class="circle bg-danger"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="table-responsive" style="max-height: 400px; overflow-y: auto;">
+                <table class="table table-hover table-bordered text-center">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">País</th>
+                            <th scope="col">Requerimentos para viajar</th>
+                        </tr>
+                    </thead>
+
+                    <tr>
+                        <th>Afghanistan</th>
+                        <th class="bg-danger">Visado requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Albania</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Algeria</th>
+                        <th class="bg-danger">Visado requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Andorra</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Angola</th>
+                        <th class="bg-success">Visado gratis por 30 días</th>
+                    </tr>
+                    <tr>
+                        <th>Antigua y Barbuda</th>
+                        <th class="bg-success">Visado gratis por 180 días</th>
+                    </tr>
+                    <tr>
+                        <th>Argentina</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Armenia</th>
+                        <th class="bg-success">Visado gratis por 180 días</th>
+                    </tr>
+                    <tr>
+                        <th>Australia</th>
+                        <th class="bg-primary">eTA por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Austria</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Azerbaijan</th>
+                        <th class="bg-primary">eTA por 30 días</th>
+                    </tr>
+                    <tr>
+                        <th>Bahamas</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Bahrain</th>
+                        <th class="bg-primary">Visado al llegar por 30 días</th>
+                    </tr>
+                    <tr>
+                        <th>Bangladesh</th>
+                        <th class="bg-primary">Visado al llegar por 30 días</th>
+                    </tr>
+                    <tr>
+                        <th>Barbados</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Bielorusia</th>
+                        <th class="bg-success">Visado gratis por 30 días</th>
+                    </tr>
+                    <tr>
+                        <th>Bélgica</th>
+                        <th class="bg-primary">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Belize</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Benin</th>
+                        <th class="bg-danger">eTA requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Bhutan</th>
+                        <th class="bg-danger">eTA requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Bolivia</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Bosnia y Herzegovina</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Botswana</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Brasil</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Brunei</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Bulgaria</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Burkina Faso</th>
+                        <th class="bg-primary">Visado al llegar</th>
+                    </tr>
+                    <tr>
+                        <th>Burundi</th>
+                        <th class="bg-primary">Visado al llegar</th>
+                    </tr>
+                    <tr>
+                        <th>Cambodia</th>
+                        <th class="bg-primary">Visa al llegar</th>
+                    </tr>
+                    <tr>
+                        <th>Camerún</th>
+                        <th class="bg-danger">eTA requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Canadá</th>
+                        <th class="bg-warning">eTA requerido por 180 días</th>
+                    </tr>
+                    <tr>
+                        <th>Cabo verde</th>
+                        <th class="bg-success">Visado gratis por 30 días</th>
+                    </tr>
+                    <tr>
+                        <th>República Centroafricana</th>
+                        <th class="bg-danger">Visado requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Chad</th>
+                        <th class="bg-danger">Visado requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Chile</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>China</th>
+                        <th class="bg-success">Visado gratis por 30 días</th>
+                    </tr>
+                    <tr>
+                        <th>Colombia</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Comoros</th>
+                        <th class="bg-primary">Visado al llegar</th>
+                    </tr>
+                    <tr>
+                        <th>Congo</th>
+                        <th class="bg-danger">Visado requerido</th>
+                    </tr>
+                    <tr>
+                        <th>República Democrática del Congo</th>
+                        <th class="bg-primary">eTA requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Costa Rica</th>
+                        <th class="bg-success">Visado gratis por 180 días</th>
+                    </tr>
+                    <tr>
+                        <th>Costa de Marfil</th>
+                        <th class="bg-warning">Deberás preincribirte para poder visitar este país</th>
+                    </tr>
+                    <tr>
+                        <th>Croacia</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Cuba</th>
+                        <th class="bg-primary">eTA por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Chipre</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>República Checha</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Dinamarca</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Djibouti</th>
+                        <th class="bg-primary">Visado al llegar</th>
+                    </tr>
+                    <tr>
+                        <th>Dominica</th>
+                        <th class="bg-success">Visado gratis por 180 días</th>
+                    </tr>
+                    <tr>
+                        <th>República Dominicana</th>
+                        <th class="bg-success">eTA gratis por 30 días</th>
+                    </tr>
+                    <tr>
+                        <th>Ecuador</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Egipto</th>
+                        <th class="bg-primary">Visado al llegar</th>
+                    </tr>
+                    <tr>
+                        <th>El Salvador</th>
+                        <th class="bg-success">Visado gratis por 180 días</th>
+                    </tr>
+                    <tr>
+                        <th>Guinea Ecuatorial</th>
+                        <th class="bg-primary">eTA requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Eritrea</th>
+                        <th class="bg-danger">Visado requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Estonia</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Eswatini</th>
+                        <th class="bg-success">Visado gratis por 30 días</th>
+                    </tr>
+                    <tr>
+                        <th>Etiopía</th>
+                        <th class="bg-primary">Visado al llegar</th>
+                    </tr>
+                    <tr>
+                        <th>Fiji</th>
+                        <th class="bg-success">Visado gratis por 120 días</th>
+                    </tr>
+                    <tr>
+                        <th>Finlandia</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Francia</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Gabon</th>
+                        <th class="bg-primary">eTA requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Gambia</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Georgia</th>
+                        <th class="bg-success">Visado gratis por 360 días</th>
+                    </tr>
+                    <tr>
+                        <th>Alemania</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Ghana</th>
+                        <th class="bg-primary">Visado al llegar</th>
+                    </tr>
+                    <tr>
+                        <th>Grecia</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Granada</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Guatemala</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Guinea</th>
+                        <th class="bg-primary">eTA requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Guinea-Bissau</th>
+                        <th class="bg-primary">Visado al llegar</th>
+                    </tr>
+                    <tr>
+                        <th>Guyana</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Haiti</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Honduras</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Hong Kong</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Hungría</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Islandia</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>India</th>
+                        <th class="bg-primary">eTA requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Indonesia</th>
+                        <th class="bg-primary">Visado al llegar</th>
+                    </tr>
+                    <tr>
+                        <th>Iran</th>
+                        <th class="bg-primary">Visado al llegar</th>
+                    </tr>
+                    <tr>
+                        <th>Iraq</th>
+                        <th class="bg-primary">Visado al llegar</th>
+                    </tr>
+                    <tr>
+                        <th>Irlanda</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Israel</th>
+                        <th class="bg-warning">eTA requerido durante 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Italia</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Jamaica</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Japón</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Jordania</th>
+                        <th class="bg-primary">Visado al llegar</th>
+                    </tr>
+                    <tr>
+                        <th>Kazajistán</th>
+                        <th class="bg-success">Visado gratis por 30 días</th>
+                    </tr>
+                    <tr>
+                        <th>Kenya</th>
+                        <th class="bg-warning">eTA requerido por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Kiribati</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Kosovo</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Kuwait</th>
+                        <th class="bg-primary">Visado al llegar</th>
+                    </tr>
+                    <tr>
+                        <th>Kirguistán</th>
+                        <th class="bg-success">Visado gratis por 60 días</th>
+                    </tr>
+                    <tr>
+                        <th>Laos</th>
+                        <th class="bg-success">Visado gratis por 15 días</th>
+                    </tr>
+                    <tr>
+                        <th>Letonia</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Líbano</th>
+                        <th class="bg-primary">Visado al llegar</th>
+                    </tr>
+                    <tr>
+                        <th>Lesotho</th>
+                        <th class="bg-success">Visado gratis por 14 días</th>
+                    </tr>
+                    <tr>
+                        <th>Kirguistán</th>
+                        <th class="bg-danger">Visado requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Libia</th>
+                        <th class="bg-danger">eTA requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Liechtenstein</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Lituania</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Luxemburgo</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Macao</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Madagascar</th>
+                        <th class="bg-primary">Visado al llegar</th>
+                    </tr>
+                    <tr>
+                        <th>Malawi</th>
+                        <th class="bg-primary">Visado al llegar</th>
+                    </tr>
+                    <tr>
+                        <th>Malasia</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Mali</th>
+                        <th class="bg-danger">Visado requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Malta</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Islas Marshall</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Mauritania</th>
+                        <th class="bg-primary">eTA requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Islas Mauricio</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>México</th>
+                        <th class="bg-success">Visado gratis por 180 días</th>
+                    </tr>
+                    <tr>
+                        <th>Moldavia</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Mónaco</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Mongolia</th>
+                        <th class="bg-success">Visado gratis por 30 días</th>
+                    </tr>
+                    <tr>
+                        <th>Montenegro</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Marruecos</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Mozambique</th>
+                        <th class="bg-success">Visado gratis por 30 días</th>
+                    </tr>
+                    <tr>
+                        <th>Myanmar</th>
+                        <th class="bg-danger">Visado requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Namibia</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Nauru</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Nepal</th>
+                        <th class="bg-primary">Visado al llegar</th>
+                    </tr>
+                    <tr>
+                        <th>Netherlands</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Nueva Zelanda</th>
+                        <th class="bg-warning">eTA por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Nicaragua</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Níger</th>
+                        <th class="bg-danger">Visado requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Nigeria</th>
+                        <th class="bg-primary">eTA por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Korea del Norte</th>
+                        <th class="bg-danger">Visado requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Macedonia del Norte</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Noruega</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Oman</th>
+                        <th class="bg-primary">Visado al llegar</th>
+                    </tr>
+                    <tr>
+                        <th>Pakistán</th>
+                        <th class="bg-warning">eTA durante 30 días</th>
+                    </tr>
+                    <tr>
+                        <th>Palau</th>
+                        <th class="bg-success">Visado gratis por 60 días</th>
+                    </tr>
+                    <tr>
+                        <th>Palestina</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Panamá</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Papúa Nueva Guinea</th>
+                        <th class="bg-primary">eTA requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Paraguay</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Perú</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Filipinas</th>
+                        <th class="bg-success">Visado gratis por 30 días</th>
+                    </tr>
+                    <tr>
+                        <th>Polonia</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Portugal</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Qatar</th>
+                        <th class="bg-primary">Visado gratis al llegar</th>
+                    </tr>
+                    <tr>
+                        <th>Rumanía</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Rusia</th>
+                        <th class="bg-primary">eTA requerido por 15 días</th>
+                    </tr>
+                    <tr>
+                        <th>Ruanda</th>
+                        <th class="bg-primary">Visado al llegar</th>
+                    </tr>
+                    <tr>
+                        <th>San Cristóbal y Nieves</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Santa Lucía</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Samoa</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>San Marino</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Santo Tomé y Príncipe</th>
+                        <th class="bg-success">Visado gratis por 15 días</th>
+                    </tr>
+                    <tr>
+                        <th>Arabia Saudita</th>
+                        <th class="bg-primary">Visado al llegar</th>
+                    </tr>
+                    <tr>
+                        <th>Senegal</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Serbia</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Saychelles</th>
+                        <th class="bg-warning">Registro Turístico Requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Sierra Leona</th>
+                        <th class="bg-primary">Visado al llegar</th>
+                    </tr>
+                    <tr>
+                        <th>Singapur</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Eslovaquia</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Eslovenia</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Islas Solomon</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Somalia</th>
+                        <th class="bg-primary">Visado al llegar</th>
+                    </tr>
+                    <tr>
+                        <th>Sudáfrica</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Korea del Sur</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Sudán del Sur</th>
+                        <th class="bg-primary">eTA requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Sri Lanka</th>
+                        <th class="bg-primary">Visado al llegar</th>
+                    </tr>
+                    <tr>
+                        <th>San Vicenete y las Granadinas</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Sudán</th>
+                        <th class="bg-danger">Visado requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Suriname</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Suecia</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Suiza</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Siria</th>
+                        <th class="bg-danger">Visado requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Taiwan</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Tajikistán</th>
+                        <th class="bg-success">Visado gratis por 30 días</th>
+                    </tr>
+                    <tr>
+                        <th>Tanzania</th>
+                        <th class="bg-primary">Visado al llegar</th>
+                    </tr>
+                    <tr>
+                        <th>Tailandia</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Timor-Leste</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Togo</th>
+                        <th class="bg-primary">eTA por 15 días</th>
+                    </tr>
+                    <tr>
+                        <th>Tonga</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Trinidad y Tobago</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Túnez</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Turkmenistán</th>
+                        <th class="bg-danger">Visado requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Tuvalu</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Turquía</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Uganda</th>
+                        <th class="bg-primary">eTA requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Ucrania</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Emiratos Árabes Unidos</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Reino Unido</th>
+                        <th class="bg-success">Visado gratis por 180 días</th>
+                    </tr>
+                    <tr>
+                        <th>Estados Unidos</th>
+                        <th class="bg-warning">eTA obligatorio por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Uruguay</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Uzbekistán</th>
+                        <th class="bg-success">Visado gratis por 30 días</th>
+                    </tr>
+                    <tr>
+                        <th>Vanuatu</th>
+                        <th class="bg-success">Visado gratis por 120 días</th>
+                    </tr>
+                    <tr>
+                        <th>Ciudad del Vaticano</th>
+                        <th class="bg-success">Visado gratis</th>
+                    </tr>
+                    <tr>
+                        <th>Venezuela</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Vietnam</th>
+                        <th class="bg-success">Visado gratis por 45 días</th>
+                    </tr>
+                    <tr>
+                        <th>Yemen</th>
+                        <th class="bg-danger">Visado requerido</th>
+                    </tr>
+                    <tr>
+                        <th>Zambia</th>
+                        <th class="bg-success">Visado gratis por 90 días</th>
+                    </tr>
+                    <tr>
+                        <th>Zimbabwe</th>
+                        <th class="bg-primary">Visado al llegar</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer class="mt-3" style="background-color: #2B2B2B;">
+        <div class="container">
+            <div
+                class="d-flex flex-column flex-md-row justify-content-between align-items-center text-center text-md-start">
+                <div>
+                    <h4>Pasaporte español</h4>
+                    <p>Conoce todo lo que puedes hacer con él.</p>
+                </div>
+                <div>
+                    <h4>Síguenos</h4>
+                    <a href="https://www.tiktok.com/pasaporteespanol" class="me-3"><i class="bi bi-tiktok"></i></a>
+                    <a href="https://www.instagram.com/pasaporteespanol" class="me-3"><i
+                            class="bi bi-instagram"></i></a>
+                    <a href="https://www.x.com/pasaporteespanol"><i class="bi bi-twitter-x"></i></a>
+                </div>
+                <div class="text-center mt-4">
+                    <h4>Para más información:</h4>
+                    <p><i class="bi bi-telephone-fill me-2"></i> 123 45 67 89</p>
+                    <p><i class="bi bi-envelope-at-fill"></i> spain@spanishpassport.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+    </script>
+</body>
+
+<style>
+    body {
+        background-color: #830D23;
+    }
+
+    h2 {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    h2,
+    h4,
+    p,
+    a {
+        color: #D4AF37;
+    }
+
+    .nav-item .nav-link.active {
+        color: #997f29;
+    }
+
+    .nav-item .nav-link {
+        color: #D4AF37;
+    }
+
+    .table-responsive {
+        scrollbar-width: thin;
+        scrollbar-color: #D4AF37 #2B2B2B;
+    }
+
+    .table-responsive::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    .table-responsive::-webkit-scrollbar-track {
+        background: #2B2B2B;
+    }
+
+    .table-responsive::-webkit-scrollbar-thumb {
+        background-color: #D4AF37;
+        border-radius: 10px;
+        border: 3px solid #2B2B2B;
+    }
+
+
+
+
+    .input-group-text {
+        display: flex;
+        align-items: center;
+    }
+
+    .form-control {
+        background-color: #2B2B2B;
+        color: #D4AF37;
+    }
+
+    .form-control::placeholder {
+        color: #D4AF37;
+    }
+
+    .circle {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+    }
+
+    .bg-dark {
+        background-color: #2B2B2B !important;
+    }
+
+    .text-light {
+        color: #D4AF37 !important;
+    }
+</style>
+
+
+</html>

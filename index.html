@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasaporte Español</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg" style="background-color: #2B2B2B;">
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center">
+                <a class="navbar-brand ms-5" href="index.html">
+                    <img src="img/logo.png" alt="Logo" width="38" height="34"
+                        class="d-inline-block align-text-top rounded">
+                </a>
+                <h4>Pasaporte Español</h4>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse me-5" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="listaReq.html">Explorar Pasaporte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="topPasaportes.html">Top Pasaportes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="flex-fill">
+        <article>
+            <div class="container d-flex flex-column align-items-center mt-5">
+                <h2 class="text-warning font-weight-bold text-center mt-3">
+                    ¿Sabes que contamos con el 2º pasaporte más potente del mundo?
+                </h2>
+                <div class="d-flex w-100 mt-4">
+                    <div class="text-left flex-grow-1 mx-5">
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Países a los que podemos viajar:
+                                <span class="badge text-bg-danger rounded-pill">179</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Países a los que podemos viajar con visado gratis:
+                                <span class="badge text-bg-danger rounded-pill">126</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Países en los que se nos otorga el visado al llegar:
+                                <span class="badge text-bg-danger rounded-pill">45</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <span>
+                                    Países en los que necesitaremos el
+                                    <span data-bs-toggle="tooltip" title="Electronic Traveler Authorization">
+                                        eTA:
+                                    </span>
+                                </span>
+                                <span class="badge text-bg-danger rounded-pill">8</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Países en los que necesitamos el visado:
+                                <span class="badge text-bg-danger rounded-pill">19</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Porcentaje del mundo que podemos visitar sin visado:
+                                <span class="badge text-bg-danger rounded-pill">90%</span>
+                            </li>
+                        </ul>
+                        <div class="accordion mt-3" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        ¿Cómo consigo un visado?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="text-black">El visado dependerá del país que quieras visitar, pero de
+                                            manera genérica deberás
+                                            rellenar un formulario y pagar unas tasas. </p>
+                                        <p class="text-black">
+                                            Luego, depende del país deberás hacer una reunión con el consulado,
+                                            por ejemplo, en el caso de que quieras viajar a EE.UU.
+                                        </p>
+                                        <p class="text-black">
+                                            Puedes encontrar más información en: <a
+                                                href="https://www.visahq.com">www.visahq.com</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        ¿Cómo consigo el pasaporte?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="text-black">
+                                            Se deberá solicitar cita en la siguiente página: <a
+                                                href="https://www.citapreviadnie.es">https://www.citapreviadnie.es</a>
+                                        </p>
+                                        <p class="text-black">
+                                            Deberás de acudir con tu DNI, una foto reciente y un justificante de pago de
+                                            las tasas necesarias.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        ¿Qué es el eTA y cómo se consigue?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p class="text-black">
+                                            El eTA es un sistema de autorización electrónica para viajar que permite a
+                                            los ciudadanos de ciertos países, como España
+                                        </p>
+                                        <p class="text-black">
+                                            viajar a otros países como Canadá sin necesidad de un visado tradicional,
+                                            eso sí, en estancias cortas de no más de 6 meses.
+                                        </p>
+                                        <p class="text-black">
+                                            Para conseguirlo deberemos de acudir a la oficina de inmigración del país
+                                            destino, para Canadá, por ejemplo: <a
+                                                href="https://www.canada.ca/en/immigration-refugees-citizensship/services/eta.html">aquí.</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ml-auto">
+                        <img src="img/pasaporte.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer class="mt-3" style="background-color: #2B2B2B;">
+        <div class="container">
+            <div
+                class="d-flex flex-column flex-md-row justify-content-between align-items-center text-center text-md-start">
+                <div>
+                    <h4>Pasaporte español</h4>
+                    <p>Conoce todo lo que puedes hacer con él.</p>
+                </div>
+                <div>
+                    <h4>Síguenos</h4>
+                    <a href="https://www.tiktok.com/pasaporteespanol" class="me-3"><i class="bi bi-tiktok"></i></a>
+                    <a href="https://www.instagram.com/pasaporteespanol" class="me-3"><i
+                            class="bi bi-instagram"></i></a>
+                    <a href="https://www.x.com/pasaporteespanol"><i class="bi bi-twitter-x"></i></a>
+                </div>
+                <div class="text-center mt-4">
+                    <h4>Para más información:</h4>
+                    <p><i class="bi bi-telephone-fill me-2"></i> 123 45 67 89</p>
+                    <p><i class="bi bi-envelope-at-fill"></i> spain@spanishpassport.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+    </script>
+</body>
+
+<style>
+    body {
+        background-color: #830D23;
+    }
+
+    h2 {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    h2,
+    h4,
+    p,
+    a {
+        color: #D4AF37;
+    }
+
+    .nav-item .nav-link.active {
+        color: #997f29;
+    }
+
+    .nav-item .nav-link {
+        color: #D4AF37;
+    }
+</style>
+
+</html>
